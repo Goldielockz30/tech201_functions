@@ -1,6 +1,3 @@
-# tech201_functions
-tech201_functions
-
 # Functions
 
 # D R Y
@@ -95,4 +92,3 @@ tech201_functions
 # keep things small to preserve readability and simplicity
 # use comments in your functions/methods to give instructions on how to use them
 # consider using type hints to avoid type errors when you run your code
-
