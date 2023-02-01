@@ -106,3 +106,29 @@ print(division())
 * Use comments in your functions/methods to give instructions on how to use them  
 * Consider using type hints to avoid type errors when you run your code   
 
+# A Simple Calculator
+```python
+def addition(num1: int, num2: int) -> float:# type hint for return float
+    return num1 + num2
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print(addition(num1, num2))
+
+def subtraction(num1: int, num2: int) -> float: # type hint for return float
+    return num1 - num2
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print(subtraction(num1, num2))
+
+def multiplication(num1: int, num2: int) -> float: # type hint for return float
+    return num1 * num2
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print(multiplication(num1, num2))
+
+def division(num1: int, num2: int) -> float: # type hint for return float
+    return num1 / num2
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print(division(num1, num2))
+```
