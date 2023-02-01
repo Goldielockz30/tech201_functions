@@ -3,50 +3,51 @@ tech201_functions
 
 # Functions
 
-# D R Y
-# Don't Repeat Yourself
+### D R Y
+### Don't Repeat Yourself
 
-# # we embed functions in a code to make them reusable
+we embed functions in a code to make them reusable
 
-# how to write a function
-# define a function and then the function name
-# the colon says that the print statement is linked to the function
+how to write a function
+define a function and then the function name
+the colon says that the print statement is linked to the function
+```python
+def print_something():
+    print("Something has been printed")
+outside the function you have to call print_something to get it to do what we want
+print_something()
+```
 
-# def print_something():
-#     print("Something has been printed")
-# # outside of the function you have to call print_something to get it to do what we want
-# print_something()
+this function has no arguments it just prints out a string
+we want to use arguments to make the function more usefully
+```python
+def print_something(print_string):
+     print(print_string)
+print_something("this is my variable")
 
+print_something("this is the second time i called this function")
+```
+#### In Java: we use
+#### public void print_string(string_text)
 
-# this function has no arguments it just prints out a string
-# we want to use arguments to make the function more usefully
+name your arguments clearly so that it gives context to what you want
+```python
+def greetings(name):
+     print("Hello, my name is " + name)
 
-# def print_something(print_string):
-#     print(print_string)
-# print_something("this is my variable")
-#
-# print_something("this is the second time i called this function")
-
-# In Java:
-# public void print_string(string_text)
-
-# name your arguments clearly so that it gives context to what you want
-
-# def greetings(name):
-#     print("Hello, my name is " + name)
-#
-# greetings("Luke")
-# greetings("Ahimba")
-# greetings("John")
-# greetings("Sally")
-
+greetings("Luke")
+greetings("Ahimba")
+greetings("John")
+greetings("Sally")
+```
 # The return statement
-# the functions go blue once we start to use/ call them
-# def addition(int1, int2):
-#     return int1 + int2
-#
-# print(addition(2, 2))
+the functions go blue once we start to use/ call them
+```python
+def addition(int1, int2):
+    return int1 + int2
 
+print(addition(2, 2))
+```
 # Default arguments
 # we can overwrite the default arguments in the print statements at the end
 # def addition(int1=2, int2=5):
