@@ -14,7 +14,7 @@ the colon says that the print statement is linked to the function
 ```python
 def print_something():
     print("Something has been printed")
-outside the function you have to call print_something to get it to do what we want
+# outside the function you have to call print_something to get it to do what we want
 print_something()
 ```
 
