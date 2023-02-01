@@ -49,51 +49,60 @@ def addition(int1, int2):
 print(addition(2, 2))
 ```
 # Default arguments
-# we can overwrite the default arguments in the print statements at the end
-# def addition(int1=2, int2=5):
-#     return int2 + int2
-#
-# print(addition())
-# print(addition(10, 10))
-# print(addition())
+we can overwrite the default arguments in the print statements at the end  
+```python
+def addition(int1=2, int2=5):
+    return int2 + int2
 
+print(addition())
+print(addition(10, 10))
+print(addition()) # this just shows that the previous line doesn't replace default values in the code unless declared
+```
 # Multiple arguments
-# this creates a tuple the star means i can have as many arguments inside function
-# def multi_args(*multiargs):
-#     print(type(multiargs))
-# # fo reach element in the tuple we have created, print it out
-#     for arg in multiargs:
-#         print(arg) # print each argument
-# multi_args(1, 2, 3, 4, 5, 6)
+this creates a tuple the star means i can have as many arguments inside function
+```python
+def multi_args(*multiargs):
+     print(type(multiargs))
+# for reach element in the tuple we have created, print it out
+     for arg in multiargs:
+         print(arg) # print each argument
+multi_args(1, 2, 3, 4, 5, 6)
 
-
+   ```
 
 # Type Hints
-# they will tell us if something is not right with the code
-# eg. (name: str):, or (num: int):
-# def greeting(name: str):
-#     print("Hello, my name is " + name)
-#
-# greeting(29992)
+they will tell us if something is not right with the code
+eg. (name: str):, or (num: int):
+```python
+
+
+def greeting(name: str):
+    print("Hello, my name is " + name)
+
+greeting(29992) # this causes an error because it is an int but the type hint limits it to a string
+```
 
 # this will return the type of the output
-# def division(num1: int, num2: int) -> float: # type hint for return float
-#     return num1 / num2
-#
-# print(type(division(4, 53)))
+```python
+def division(num1: int, num2: int) -> float: # type hint for return float
+    return num1 / num2
+
+print(type(division(4, 53)))
+```
 
 # division
-# def division(num1: int = 5, num2: int = 2) -> float: # type hint for return float
-#     return num1 / num2
-#
-# print(division())
+```python
+def division(num1: int = 5, num2: int = 2) -> float: # type hint for return float
+     return num1 / num2
 
+print(division())
+```
 # Function best practices
 
-# Name your functions clearly using lower case and underscores
-# all arguments should be clear in their need and where possible include their expected type
-# remember the return statement or your function will return none
-# keep things small to preserve readability and simplicity
-# use comments in your functions/methods to give instructions on how to use them
-# consider using type hints to avoid type errors when you run your code
+* Name your functions clearly using lower case and underscores  
+* All arguments should be clear in their need and where possible include their expected type  
+* Remember the return statement or your function will return none  
+* Keep things small to preserve readability and simplicity  
+* Use comments in your functions/methods to give instructions on how to use them  
+* Consider using type hints to avoid type errors when you run your code   
 
