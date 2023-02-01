@@ -79,10 +79,10 @@
 # print(type(division(4, 53)))
 
 # division
-def division(num1: int = 5, num2: int = 2) -> float: # type hint for return float
-    return num1 / num2
-
-print(division())
+# def division(num1: int = 5, num2: int = 2) -> float: # type hint for return float
+#     return num1 / num2
+#
+# print(division())
 
 # Function best practices
 
