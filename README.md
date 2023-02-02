@@ -151,3 +151,13 @@ num2 = 3.280839895
 print("Your converted value is")
 print(convert(num1, num2))
 ```
+
+```python
+Enter the number of centemetres you would like to convert to metres: 1000
+Your converted value is
+10.0
+Enter the number of metres you would like to convert to feet: 1000
+Your converted value is
+304.8000000012192
+
+```

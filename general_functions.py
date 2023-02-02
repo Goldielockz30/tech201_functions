@@ -57,7 +57,7 @@
 # this creates a tuple the star means i can have as many arguments inside function
 # def multi_args(*multiargs):
 #     print(type(multiargs))
-# # fo reach element in the tuple we have created, print it out
+# # for each element in the tuple we have created, print it out
 #     for arg in multiargs:
 #         print(arg) # print each argument
 # multi_args(1, 2, 3, 4, 5, 6)
@@ -92,3 +92,4 @@
 # keep things small to preserve readability and simplicity
 # use comments in your functions/methods to give instructions on how to use them
 # consider using type hints to avoid type errors when you run your code
+
